@@ -38,7 +38,7 @@
     <string name="disabled">Disattivato</string>
     <string name="enabled">Attivato</string>
     <string name="privacy_settings_title">Privacy</string>
-    <string name="channel_light_settings_name">Anteprime configurazione luci</string>
+    <string name="channel_light_settings_name">Anteprima impostazioni luci</string>
     <string name="edit_light_settings">Modifica impostazioni luci</string>
     <string name="pulse_speed_title">Durata e velocità del lampeggio</string>
     <string name="default_time">Normale</string>
@@ -194,7 +194,7 @@
     <string name="backlight_summary_disabled">Disattivata</string>
     <string name="backlight_summary_enabled_with_timeout">Attivata per <xliff:g id="timeout">%s</xliff:g></string>
     <string name="backlight_summary_enabled">Attivata</string>
-    <string name="disable_navkeys_title">Abilità barra di navigazione su schermo</string>
+    <string name="disable_navkeys_title">Abilita barra di navigazione su schermo</string>
     <string name="disable_navkeys_summary">Attiva la barra di navigazione a schermo e disattiva i pulsanti fisici</string>
     <string name="swap_capacitive_keys_title">Inverti pulsanti capacitivi</string>
     <string name="swap_capacitive_keys_summary">Inverti la posizione dei pulsanti \"recenti\" ed \"indietro\" </string>
@@ -223,7 +223,7 @@
     <string name="camera_double_tap_power_gesture_title">Premi due volte il tasto di accensione per avviare la fotocamera</string>
     <string name="camera_double_tap_power_gesture_desc">Apri velocemente la fotocamera senza sbloccare lo schermo</string>
     <string name="torch_long_press_power_gesture_title">Premi a lungo per la torcia</string>
-    <string name="torch_long_press_power_gesture_desc">Attiva la torcia tenendo premuto a lungo il pulsante d\'accensione quando lo schermo é spento</string>
+    <string name="torch_long_press_power_gesture_desc">Attiva la torcia tenendo premuto a lungo il pulsante d\'accensione quando lo schermo è spento</string>
     <string name="torch_long_press_power_timeout_title">Spegni la torcia automaticamente</string>
     <string name="torch_long_press_power_timeout_never">Mai</string>
     <string name="torch_long_press_power_timeout_1min">1 minuto</string>
@@ -352,6 +352,8 @@
     <string name="status_bar_clock_title">Orologio</string>
     <string name="status_bar_clock_show_seconds_title">Mostra secondi</string>
     <string name="status_bar_clock_show_seconds_summary">Mostra ore, minuti e secondi</string>
+    <string name="status_bar_clock_auto_hide_title">Nascondi automaticamente</string>
+    <string name="status_bar_clock_auto_hide_summary">Nascondi l\'orologio se il launcher è visibile</string>
     <string name="status_bar_clock_position_title">Posizione orologio</string>
     <string name="status_bar_clock_position_right">Destra</string>
     <string name="status_bar_clock_position_left">Sinistra</string>
@@ -403,13 +405,13 @@
     <string name="contributors_cloud_loading_message">Caricamento dati collaboratori\u2026</string>
     <string name="contributors_cloud_failed_message">Impossibile caricare dati collaboratori</string>
     <string name="contributor_info_menu">Info collaboratore</string>
-    <string name="contributor_info_msg">&lt;b&gt;Nome:&lt;/b&gt; &lt;xliff:g id="name"&gt;%1$s&lt;/xliff:g&gt;&lt;br/&gt;&lt;br/&gt;
-                 &lt;b&gt;Nick:&lt;/b&gt; &lt;xliff:g id="nick"&gt;%2$s&lt;/xliff:g&gt;&lt;br/&gt;&lt;br/&gt;
-                 &lt;b&gt;Commits:&lt;/b&gt; &lt;xliff:g id="commits"&gt;%3$s&lt;/xliff:g&gt;</string>
+    <string name="contributor_info_msg"><![CDATA[<b>Nome:</b> <xliff:g id="name">%1$s</xliff:g><br/><br/>
+                 <b>Nick:</b> <xliff:g id="nick">%2$s</xliff:g><br/><br/>
+                 <b>Commits:</b> <xliff:g id="commits">%3$s</xliff:g>]]></string>
     <string name="contributions_info_menu">Info contributi</string>
-    <string name="contributions_info_msg">&lt;b&gt;Totale collaboratori:&lt;/b&gt; &lt;xliff:g id="total_contributors"&gt;%1$s&lt;/xliff:g&gt;&lt;br/&gt;&lt;br/&gt;
-                 &lt;b&gt;Totale commit:&lt;/b&gt; &lt;xliff:g id="total_commits"&gt;%2$s&lt;/xliff:g&gt;&lt;br/&gt;&lt;br/&gt;
-                 &lt;b&gt;Ultimo aggiornamento:&lt;/b&gt; &lt;xliff:g id="date"&gt;%3$s&lt;/xliff:g&gt;</string>
+    <string name="contributions_info_msg"><![CDATA[<b>Totale collaboratori:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
+                 <b>Totale commit:</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
+                 <b>Ultimo aggiornamento:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
     <string name="anonymous_statistics_title">Statistiche LineageOS</string>
     <string name="anonymous_statistics_summary">Aiuta a migliorare LineageOS consentendo l\'invio di statistiche anonime</string>
     <string name="anonymous_statistics_warning_title">Info</string>
@@ -470,8 +472,10 @@
     <string name="charging_sounds_enabled_title">Attiva</string>
     <string name="charging_sounds_enabled_summary">Riproduci un suono quando si collega o si scollega l\'alimentatore</string>
     <string name="power_notifications_vibrate_title">Vibra</string>
-    <string name="charging_sounds_ringtone_title">Suono di notifica</string>
     <string name="charging_sounds_ringtone_silent">Silenzioso</string>
+    <string name="charging_sounds_notification_category_title">Suoni di notifica</string>
+    <string name="wired_charging_sounds_title">Ricarica via cavo</string>
+    <string name="wireless_charging_sounds_title">Ricarica wireless</string>
     <string name="touchscreen_gesture_settings_title">Gesti a schermo spento</string>
     <string name="touchscreen_gesture_settings_summary">Esegui vari movimenti sul touchscreen per azioni rapide</string>
     <string name="touchscreen_gestures_haptic_feedback_title">Feedback tattile</string>
@@ -521,12 +525,15 @@
     <string name="trust_feature_selinux_explain">Il SELinux definisce quali processi hanno accesso a quali file sul dispositivo.\nQuesto impedisce alle app e servizi di accedere a file che non dovrebbero gestire: in questo modo un potenziale processo dannoso sarà limitato e la tua sicurezza preservata.</string>
     <string name="trust_feature_security_patches">Livello patch sicurezza Android</string>
     <string name="trust_feature_security_patches_value_base">Piattaforma: %1$s\nProduttore: %2$s</string>
+    <string name="trust_feature_security_patches_value_new">Aggiornate</string>
+    <string name="trust_feature_security_patches_value_medium">Non aggiornate da qualche mese</string>
+    <string name="trust_feature_security_patches_value_old">Non aggiornate</string>
     <string name="trust_feature_security_patches_explain">Le patch di sicurezza vengono rilasciate mensilmente da Google in cooperazione con i produttori di SoC per risolvere problemi che potrebbero essere sfruttati dalle app dannose per aggirare le restrizioni di sicurezza e causare danni permanenti al dispositivo. Le patch rese disponibili da Google sono applicate a tutti i dispositivi supportati, ma quelle relative ai componenti proprietari possono essere applicati solo dal produttore del dispositivo. Per mantenere il dispositivo sicuro, controlla che la tua versione di LineageOS sia sempre aggiornata ed eventualmente assicurati che i componenti proprietari come firmware e immagine vendor siano quelli raccomandati da LineageOS.</string>
-    <string name="trust_feature_encryption">Criptazione</string>
+    <string name="trust_feature_encryption">Cifratura</string>
     <string name="trust_feature_encryption_value_enabled">Attiva</string>
     <string name="trust_feature_encryption_value_nolock">Necessita di una schermata di sblocco sicura</string>
     <string name="trust_feature_encryption_value_disabled">Disattivata</string>
-    <string name="trust_feature_encryption_explain">Abilitando la criptazione del dispositivo viene bloccato l\'accesso ai tuoi dati quando il dispositivo non è acceso. Questo risulta particolarmente importante nel caso in cui il dispositivo venisse rubato: in tal caso l\'accesso ai tuoi messaggi, contatti e altre informazioni personali verrà impedito fino all\'inserimento della tua password.\nPer rendere la criptazione del dispositivo più efficace è importante attivare un blocco schermo sicuro.</string>
+    <string name="trust_feature_encryption_explain">Abilitando la cifratura del dispositivo viene bloccato l\'accesso ai tuoi dati quando il dispositivo non è acceso. Questo risulta particolarmente importante nel caso in cui il dispositivo venisse rubato: in tal caso l\'accesso ai tuoi messaggi, contatti e altre informazioni personali verrà impedito fino all\'inserimento della tua password.\nPer rendere la cifratura del dispositivo più efficace è importante attivare un blocco schermo sicuro.</string>
     <string name="trust_category_tools">Privacy</string>
     <string name="trust_notification_alerts_title">Avvisi di sicurezza</string>
     <string name="trust_warnings_alerts_intro">Puoi scegliere quali problemi di sicurezza devono essere segnalati. Per la tua sicurezza è consigliabile attivarli tutti</string>

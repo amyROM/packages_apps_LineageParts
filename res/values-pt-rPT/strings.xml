@@ -38,7 +38,7 @@
     <string name="disabled">Desativada</string>
     <string name="enabled">Ativada</string>
     <string name="privacy_settings_title">Privacidade</string>
-    <string name="channel_light_settings_name">Pré-visualização das configs. de luz</string>
+    <string name="channel_light_settings_name">Pré-visualização das definicões de luz</string>
     <string name="edit_light_settings">Editar definições de luz</string>
     <string name="pulse_speed_title">Duração e velocidade da luz ao piscar</string>
     <string name="default_time">Normal</string>
@@ -352,6 +352,8 @@
     <string name="status_bar_clock_title">Relógio</string>
     <string name="status_bar_clock_show_seconds_title">Mostrar segundos</string>
     <string name="status_bar_clock_show_seconds_summary">Mostrar horas, minutos e segundos</string>
+    <string name="status_bar_clock_auto_hide_title">Ocultar automaticamente</string>
+    <string name="status_bar_clock_auto_hide_summary">Ocultar o relógio se a aplicação Página Inicial estiver visível</string>
     <string name="status_bar_clock_position_title">Posição do relógio</string>
     <string name="status_bar_clock_position_right">Direita</string>
     <string name="status_bar_clock_position_left">Esquerda</string>
@@ -403,13 +405,13 @@
     <string name="contributors_cloud_loading_message">A carregar dados dos colaboradores\u2026</string>
     <string name="contributors_cloud_failed_message">Não foi possível carregar os dados dos colaboradores</string>
     <string name="contributor_info_menu">Informação do colaborador</string>
-    <string name="contributor_info_msg">&lt;b&gt;Nome:&lt;/b&gt; &lt;xliff:g id="name"&gt;%1$s&lt;/xliff:g&gt;&lt;br/&gt;&lt;br/&gt;
-                 &lt;b&gt;Nick:&lt;/b&gt; &lt;xliff:g id="nick"&gt;%2$s&lt;/xliff:g&gt;&lt;br/&gt;&lt;br/&gt;
-                 &lt;b&gt;Contribuições:&lt;/b&gt; &lt;xliff:g id="commits"&gt;%3$s&lt;/xliff:g&gt;</string>
+    <string name="contributor_info_msg"><![CDATA[<b>Nome:</b> <xliff:g id="name">%1$s</xliff:g><br/><br/>
+                 <b>Nick:</b> <xliff:g id="nick">%2$s</xliff:g><br/><br/>
+                 <b>Contribuições:</b> <xliff:g id="commits">%3$s</xliff:g>]]></string>
     <string name="contributions_info_menu">Informação das contribuições</string>
-    <string name="contributions_info_msg">&lt;b&gt;Total de colaboradores:&lt;/b&gt; &lt;xliff:g id="total_contributors"&gt;%1$s&lt;/xliff:g&gt;&lt;br/&gt;&lt;br/&gt;
-                 &lt;b&gt;Total de contribuições:&lt;/b&gt; &lt;xliff:g id="total_commits"&gt;%2$s&lt;/xliff:g&gt;&lt;br/&gt;&lt;br/&gt;
-                 &lt;b&gt;Última atualização:&lt;/b&gt; &lt;xliff:g id="date"&gt;%3$s&lt;/xliff:g&gt;</string>
+    <string name="contributions_info_msg"><![CDATA[<b>Total de colaboradores:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
+                 <b>Total de contribuições:</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
+                 <b>Última atualização:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
     <string name="anonymous_statistics_title">Estatísticas LineageOS</string>
     <string name="anonymous_statistics_summary">Ajude a melhorar a LineageOS optando por ativar o envio do relatório de estatísticas anónimas</string>
     <string name="anonymous_statistics_warning_title">Acerca de</string>
@@ -470,8 +472,10 @@
     <string name="charging_sounds_enabled_title">Ativar</string>
     <string name="charging_sounds_enabled_summary">Tocar um som quando conectar ou desconectar uma fonte de energia</string>
     <string name="power_notifications_vibrate_title">Vibrar</string>
-    <string name="charging_sounds_ringtone_title">Som de notificação</string>
     <string name="charging_sounds_ringtone_silent">Silencioso</string>
+    <string name="charging_sounds_notification_category_title">Sons de notificação</string>
+    <string name="wired_charging_sounds_title">Carregamento com fios</string>
+    <string name="wireless_charging_sounds_title">Carregamento sem fios</string>
     <string name="touchscreen_gesture_settings_title">Gestos do ecrã</string>
     <string name="touchscreen_gesture_settings_summary">Executar vários gestos no ecrã para ações rápidas</string>
     <string name="touchscreen_gestures_haptic_feedback_title">Vibrar ao tocar</string>
